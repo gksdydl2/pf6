@@ -1,0 +1,427 @@
+header {
+  height: 141px;
+}
+header .header {
+  height: 100%;
+}
+
+header .header .head div {
+  position: relative;
+  height: 60px;
+  align-items: center;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+header .header .head div h1 a {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0;
+  width: 170px;
+  height: 30px;
+  display: block;
+}
+header .header .head div ul.type {
+  position: absolute;
+  left: 200px;
+  gap: 10px;
+}
+header .header .head div ul.type li {
+  border-bottom: 2px solid transparent;
+}
+header .header .head div ul.type li:hover {
+  border-bottom: 2px solid;
+}
+header .header .head div ul.type li a {
+  font-size: 13px;
+  line-height: 30px;
+  padding: 20px 0 22px 0;
+  border-bottom: 2px solid transparent;
+}
+header .header .head div ul.type li a:hover {
+  font-weight: 400;
+}
+header .header .head div ul.sign {
+  position: absolute;
+  right: 0;
+}
+header .header .head div ul.sign li a {
+  font-size: 13px;
+  color: #666;
+  display: inline-block;
+  position: relative;
+  margin: 0 0 0 10px;
+  padding: 20px 0 20px 11px;
+  width: auto;
+  height: auto;
+  background: #fff;
+  line-height: 20px;
+  text-indent: 0;
+}
+header .header .head div ul.sign li:first-child a:after {
+  display: none;
+}
+header .header .head div ul.sign li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  width: 1px;
+  height: 13px;
+  background: #c2c2c2;
+}
+header .header .inner {
+  height: 80px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  background: #fff;
+  z-index: 20;
+}
+header .header .inner>div {
+  position: static;
+  height: 100%;
+  width: 1080px;
+  margin: 0 auto;
+  align-items: center;
+}
+header .header .inner div ul.gnb {
+  gap: 30px;
+  height: 100%;
+}
+header .header .inner div ul.gnb>li>a {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 80px;
+}
+
+header .header .inner div ul.gnb li .gnbmenu { 
+  position: absolute;
+  z-index: 2;
+  background: #f9f9f9;
+  width: 100%;
+  top: 80px;
+  border-top: 1px solid #ddd;
+  right: 0;
+  left: 0;
+  transition: all .4s;
+  height: 0;
+  overflow: hidden;
+}
+header .header .inner div ul.gnb li .gnbmenu .servicemenu {
+  padding: 24px 10px;
+  border-bottom: 1px solid #ddd;
+  width: 1080px;
+  margin: 0 auto;
+}
+header .header .inner div ul.gnb li .gnbmenu .servicemenu a.service {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0 15px;
+  border: 1px solid #c2c2c2;
+  line-height: 26px;
+  border-radius: 17px;
+}
+header .header .inner div ul.gnb li .gnbmenu .servicemenu a.service:hover {
+  border: 1px solid #ffcc00;
+  background: #ffcc00;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle {
+  background: #f9f9f9;
+  display: flex;
+  padding: 30px 0;
+  width: 1080px;
+  margin: 0 auto;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle>li { 
+  border-right: 1px solid #ddd;
+  width: 20%;
+  /*! height: 258px; */
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle > li:last-child {
+  border-right: none;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle li h2 { 
+  display: block;
+  color: #333;
+  margin: 8px 0 10px 0;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 24px;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle li .gnblist {
+  padding: 0 20px 0 30px;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle li .gnblist li a { 
+  padding: 6px 0;
+  display: block;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle li .gnblist li a span {  
+  font-size: 14px;
+  line-height: 20px;
+}
+header .header .inner div ul.gnb li .gnbmenu .gnbtitle li .gnblist li a span:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+header .header .inner div .dark {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 142px;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+}
+header .header .inner div .tool {
+  position: absolute;
+  right: 22%;
+  align-items: center;
+  width: 25%;
+  justify-content: right;
+  top: 0;
+  bottom: 0;
+}
+header .header .inner div .tool li { 
+  margin-left: 5px;
+}
+header .header .inner div .tool li a {  
+  font-size: 13px;
+}
+header .header .inner div .tool li a.login {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  width: 82px;
+  height: 42px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+header .header .inner div .tool li a.login:hover {
+  background-color: #ebebeb;
+}
+header .header .inner div .tool li a.search {
+  background-image: url(../img/search.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+/* 검색바 */
+header .header .searchbar {
+  background: white;
+  position: absolute;
+  z-index: 1200;
+  top: 141px;
+  width: 100%;
+  display: none;
+}
+header .header .searchbar .searchtop {  
+  background: #6b717f;
+  padding: 50px 0 70px 0;
+}
+header .header .searchbar .searchtop form { 
+  width: 750px;
+  margin: 0 auto;
+  height: 50px;
+  position: relative;
+}
+header .header .searchbar .searchtop form input {  
+  width: 628px;
+  height: 40px;
+  padding: 5px 30px;
+  font-size: 18px;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+header .header .searchbar .searchtop form button {
+  border: none;
+  background-image: url(../img/searchbar.png);
+  font-size: 0;
+  display: block;
+  width: 62px;
+  height: 50px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: 19px;
+  background-position-y: 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+header .header .searchbar .searchtop form .keyword {  
+  display: flex;
+  margin-top: 15px;
+}
+header .header .searchbar .searchtop form .keyword h2 {  
+  color: white;
+  width: 115px;
+  font-weight: 500;
+  line-height: 23px;
+  font-size: 15px;
+}
+header .header .searchbar .searchtop form .keyword h2::before {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin: 1px 9px 0 0;
+  background: url(../img/searchbar.png) no-repeat -77px 0;
+}
+header .header .searchbar .searchtop form .keyword ul {  
+  display: flex;
+}
+header .header .searchbar .searchtop form .keyword ul li a {  
+  display: inline-block;
+  padding: 0 14px;
+  color: #e6e6e6;
+  line-height: 23px;
+  font-size: 15px;
+}
+header .header .searchbar .searchbottom {  
+  display: flex;
+  padding: 40px 0 50px;
+  justify-content: center;
+}
+header .header .searchbar .searchbottom .listmenu {  
+  width: 240px;
+}
+header .header .searchbar .searchbottom div h2 {
+  margin-bottom: 20px;
+  color: #614cc2;
+  font-size: 18px;
+  font-weight: 400;
+}
+header .header .searchbar .searchbottom div ul.list {
+  margin: 16px 0 24px;
+}
+header .header .searchbar .searchbottom div ul.list li a span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  font-size: 12px;
+  line-height: 20px;
+  border-radius: 3px;
+  text-align: center;
+  background: #e1e1e1;
+}
+header .header .searchbar .searchbottom div ul.list li:first-child a span {
+  background: #ffdf01;
+}
+header .header .searchbar .searchbottom .listevent {
+  width: 239px;
+  padding-left: 30px;
+}
+header .header .searchbar .searchbottom div ul.list li {
+  margin-bottom: 10px;
+}
+header .header .searchbar .searchbottom div ul.list li a {
+  overflow: hidden;
+  display: block;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+}
+header .header .searchbar .searchbottom div .banner {
+  height: 85px;
+  padding: 20px;
+  background: #f6f6f6;
+  position: relative;
+}
+header .header .searchbar .searchbottom div .banner a span {
+  margin-bottom: 5px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.6;
+}
+header .header .searchbar .searchbottom div .banner a p {
+  overflow: hidden;
+  width: 118px;
+  height: 72px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+header .header .searchbar .searchbottom .listevent .banner a img { 
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+header .header .searchbar .searchbottom .listcard {
+  
+  width: 209px;
+  padding-left: 30px;
+}
+header .header .searchbar .searchbottom .listcard .banner a img { 
+  width: 50px;
+  height: 31px;
+  bottom: 45px;
+  position: absolute;
+  right: 20px;
+}
+header .header .dim {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 142px;
+  opacity: .5;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  left: 0;
+}
+
+header .header .inner div .tool li a.menu {
+  background-image: url(../img/menu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.fixed {
+  position: fixed !important;
+  width: 100%;
+  top: 0;
+}
+.darkfixed {
+  top: 82px !important;
+}
+.searchfixed {
+  position: fixed !important;
+  top: 82px !important;
+}
+.heightauto {
+  height: 500px !important;
+}
+.close {
+  background-image: url(../img/close.png) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 0 !important;
+  width: 40px;
+  height: 40px;
+  display: block;
+}

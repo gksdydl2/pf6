@@ -1,0 +1,123 @@
+footer {
+  padding-top: 50px;
+}
+footer #footer {
+  border-top: 1px solid #c2c2c2;
+}
+footer #footer {
+  
+}
+footer #footer .wrap {
+  padding: 20px 0 40px 0;
+}
+footer #footer .wrap ul.list {
+}
+footer #footer .wrap ul li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+footer #footer .wrap>ul li {
+  margin-left: 17px;
+  padding-left: 17px;
+  position: relative;
+}
+footer #footer .wrap ul li a {
+  font-size: 13px;
+  line-height: 20px;
+  display: block;
+  color: #444;
+}
+footer #footer .wrap ul li:nth-child(2) a,footer #footer .wrap ul li:nth-child(3) a {
+  font-weight: 500;
+}
+footer #footer .wrap ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -6px;
+  width: 1px;
+  height: 14px;
+  background: #c2c2c2;
+}
+footer #footer .wrap ul li:first-child a:after {
+  display: none;
+}
+footer #footer .wrap address {
+  color: #666;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+footer #footer .wrap address span {
+  
+}
+footer #footer .wrap address a {
+  color: #666;
+}
+footer #footer .wrap address a span {
+  
+}
+footer #footer .wrap p.copyright {
+  margin-top: 8px;
+  color: #666;
+  font-size: 12px;
+  line-height: 18px;
+}
+footer #footer .wrap .add {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+footer #footer .wrap .add ul.award { 
+  gap: 20px;
+}
+footer #footer .wrap .add ul.award li {
+  font-size: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  height: 33px;
+}
+footer #footer .wrap .add ul.award li:nth-child(1) {
+  background-image: url(../img/award1.png);
+  width: 33px;
+  
+}
+footer #footer .wrap .add ul.award li:nth-child(2) {
+  background-image: url(../img/award2.png);
+  width: 34px;
+}
+footer #footer .wrap .add ul.award li:nth-child(3) {
+  background-image: url(../img/award3.png);
+  width: 42px;
+}
+footer #footer .wrap ul.award li:nth-child(4) {
+  background-image: url(../img/award4.png);
+  width: 46px;
+}
+footer #footer .wrap .add ul.sns {  
+  gap: 15px;
+}
+footer #footer .wrap .add ul.sns li {
+  
+}
+footer #footer .wrap .add ul.sns li a {
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+}
+footer #footer .wrap .add ul.sns li a.blog {
+  background-image: url(../img/blog.png);
+}
+footer #footer .wrap .add ul.sns li a.facebook {
+  background-image: url(../img/fb.png);
+}
+footer #footer .wrap .add ul.sns li a.youtube {
+  background-image: url(../img/yt.png);
+}
+footer #footer .wrap .add ul.sns li a.instagram {
+  background-image: url(../img/insta.png);
+}
