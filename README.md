@@ -1,6 +1,5 @@
 # 프로젝트명 : 국민카드 홈페이지 클론코딩
-스크롤 다운만으로 무비차트 전체를 확인할 수 있게 리뉴얼
-클론코딩을 통해 타이틀 영역 영상 삽입
+클론코딩을 통해 슬라이드 메뉴 작업, CSS animation 적용
 
 ## 원본 웹사이트
 원본 url: https://card.kbcard.com/CMN/DVIEW/HOAMCXPRIZZC0002
